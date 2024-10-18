@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 // Servir archivos estáticos desde la carpeta de build de React
 app.use(express.static(path.join(__dirname, 'dist')));
